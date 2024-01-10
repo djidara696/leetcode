@@ -14,6 +14,8 @@ def groupAnagrams(strs: List[str]) -> List[List[str]]:
 
     return list(groupper.values())
 
-print(groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
-print(groupAnagrams([""]))
-print(groupAnagrams(["t"]))
+
+if __name__ == "__main__":
+    print(groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
+    print(groupAnagrams([""]))
+    print(groupAnagrams(["t"]))

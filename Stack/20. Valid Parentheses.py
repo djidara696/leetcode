@@ -18,4 +18,5 @@ def isValid(s: str) -> bool:
             return False
     return len(stack_it) == 0
 
-print(isValid("(()}"))
+if __name__ == "__main__":
+    print(isValid("(()}"))

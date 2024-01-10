@@ -36,5 +36,5 @@ def generateParenthesis(n: int) -> List[str]:
 
 
 
-        
-print(generateParenthesis(4))
+if __name__ == "__main__":       
+    print(generateParenthesis(4))

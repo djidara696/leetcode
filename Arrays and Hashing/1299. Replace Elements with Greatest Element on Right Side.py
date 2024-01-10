@@ -21,5 +21,5 @@ def replaceElements(arr: List[int]) -> List[int]:
     return arr
 
     
-
-print(replaceElements([17,18,5,4,6,1]))
+if __name__ == "__main__":
+    print(replaceElements([17,18,5,4,6,1]))

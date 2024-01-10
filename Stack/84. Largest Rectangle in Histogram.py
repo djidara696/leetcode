@@ -14,5 +14,5 @@ class Solution:
                     i, h 
 
 
-
-Solution().largestRectangleArea([2,1,5,6,2,3])
+if __name__ == "__main__":
+    Solution().largestRectangleArea([2,1,5,6,2,3])

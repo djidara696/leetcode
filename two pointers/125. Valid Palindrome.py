@@ -13,7 +13,8 @@ class Solution:
             
         return True
 
-a = Solution()
-print(a.isPalindrome("A man, a plan, a canal: Panama"))
-print(a.isPalindrome("race a car"))
-print(a.isPalindrome(" "))
+if __name__ == "__main__":
+    a = Solution()
+    print(a.isPalindrome("A man, a plan, a canal: Panama"))
+    print(a.isPalindrome("race a car"))
+    print(a.isPalindrome(" "))

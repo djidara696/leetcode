@@ -30,12 +30,13 @@ class MinStack:
         return self.min_val[-1]
 
 
-# Your MinStack object will be instantiated and called as such:
-minStack = MinStack()
-print(minStack.push(-2))
-print(minStack.push(0) )
-print(minStack.push(-3))
-print(minStack.getMin()) # return -3
-print(minStack.pop())
-print(minStack.top())  #)   // return 0
-print(minStack.getMin()) # // return -2
+if __name__ == "__main__":
+    # Your MinStack object will be instantiated and called as such:
+    minStack = MinStack()
+    print(minStack.push(-2))
+    print(minStack.push(0) )
+    print(minStack.push(-3))
+    print(minStack.getMin()) # return -3
+    print(minStack.pop())
+    print(minStack.top())  #)   // return 0
+    print(minStack.getMin()) # // return -2

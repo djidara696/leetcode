@@ -44,9 +44,9 @@ class Solution:
 
                 return [i + 1, second_i + 1]
 
+if __name__ == "__main__":
+    a = Solution()
 
-a = Solution()
-
-print(a.twoSum(numbers = [2,7,11,15], target = 9))
-print(a.twoSum(numbers = [2,3,4], target = 6))
-print(a.twoSum(numbers = [-1,0], target = -1))
+    print(a.twoSum(numbers = [2,7,11,15], target = 9))
+    print(a.twoSum(numbers = [2,3,4], target = 6))
+    print(a.twoSum(numbers = [-1,0], target = -1))

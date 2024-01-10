@@ -26,4 +26,5 @@ def topKFrequent(nums: List[int], k: int) -> List[int]:
                   break
         return temp_elems[:k]
 
-print(topKFrequent([1,1,1,2,2,3], 2))
+if __name__ == "__main__":
+      print(topKFrequent([1,1,1,2,2,3], 2))

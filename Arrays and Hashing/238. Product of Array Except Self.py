@@ -15,6 +15,6 @@ def productExceptSelf( nums: List[int]) -> List[int]:
         postfix *= nums[i]
     return res
 
-
-print(productExceptSelf([1,2,3,4]))
-print(productExceptSelf([-1,1,0,-3,3]))
+if __name__ == "__main__":
+    print(productExceptSelf([1,2,3,4]))
+    print(productExceptSelf([-1,1,0,-3,3]))
